@@ -1,0 +1,34 @@
+@import 'bourbon';
+@import 'general';
+@import 'header-pages';
+
+body.contact {
+	li {
+			padding-left: 20px;
+	    list-style-type: none;
+	}
+	
+	.financial_info {
+		text-align: right;
+		margin-top: 50px;
+	}
+	
+	.front {
+		.image {
+			border: 1px solid rgba(51, 51, 51, 0.6);
+			box-shadow: 3px 3px 10px rgba(127, 110, 43, 0.7);
+		}
+		
+		.story {
+			width: 398px;
+			
+			#temp {
+			  color: blue;
+			  
+			  a {
+			    color: blue;
+			  }
+			}
+		}
+	}
+}

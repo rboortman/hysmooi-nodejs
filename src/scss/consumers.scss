@@ -1,0 +1,57 @@
+@import 'bourbon';
+@import 'general';
+@import 'main-catagories';
+
+body.consumers {
+	
+	.content {
+		height: auto;
+		float: left;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #7BB9DE;
+			
+			.story {
+				float: left;
+				
+				h1 {
+					text-align: left;
+				}
+			}
+		}
+	}	
+	
+	.button1 {
+		padding-top: 155px;
+		background: url('/images/offers/consumers/brandweer_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button2 {
+		background: url('/images/offers/consumers/cabinedak_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button3 {
+		background: url('/images/offers/consumers/camphy_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button4 {
+		background: url('/images/offers/consumers/neusplaten_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button5 {
+		background: url('/images/offers/consumers/politie_bus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button6 {
+		background: url('/images/offers/consumers/type_h_button.png');
+		background-repeat: no-repeat;
+	}
+}

@@ -1,0 +1,41 @@
+extend templates/_header-pages
+
+block stylesheets
+   link(rel='stylesheet', href='/css/contact.css')
+
+block image
+   iframe(width='360', height='462', frameborder='0', scrolling='no', marginwidth='0', marginheight='0', src='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Middelblok+134+D+2831+BP,+Gouderak&aq=&sll=52.034217,4.445439&sspn=0.265278,0.617294&vpsrc=6&ie=UTF8&hq=&hnear=Middelblok+134,+Gouderak,+Ouderkerk,+Zuid-Holland,+The+Netherlands&t=m&ll=52.053335,4.687042&spn=0.195074,0.253372&z=11&iwloc=A&output=embed' )
+
+block main-story
+   h1 Contact
+   
+   p
+      | U kunt op een aantal manieren contact met ons opnemen. De makkelijkste manier is om ons te mailen met eventuele vragen. Doe dat dan naar: 
+      a(href='mailto:info@hysmooi.nl') info@hysmooi.nl
+      br
+      | Ook kunt u ons mobiel bereiken via het nummer: 
+      b 0651582001
+      |  of via de mobiel van Menno: 
+      b 0638931454
+      |  Via dit nummer kunt u ook een afspraak maken om bij ons langs te komen!
+   
+   p
+      | Als u langs wilt komen, kan dat. Wel stellen we het op prijs als u eerst een afspraak maakt. Het adres van de werk-plaats is:
+      li: span#company_name HY's mooi
+      li Middelblok 134 D
+      li 2831 BP, Gouderak
+
+   p
+      a(href='/assets/directions_2013.pdf', target='_blank' ) Hier kunt u een uitgebreide routebeschrijving downloaden
+
+   .financial_info
+      | Kvk nummer: 24 314 585
+      br
+      | BTW nummer: NL076346201B02
+      br
+      | Rabobank: 1528.65.357
+      br
+      | IBAN: NL38 RABO 0152 8653 57
+      br
+      | Ten name van: HY's mooi, Gouda
+      br

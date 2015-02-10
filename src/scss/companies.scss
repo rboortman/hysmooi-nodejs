@@ -1,0 +1,81 @@
+@import 'bourbon';
+@import 'general';
+@import 'main-catagories';
+
+body.companies {
+	
+	.content {
+		height: auto;
+		float: left;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #F69679;
+			
+			.story {
+				float: left;
+				
+				h1 {
+					text-align: left;
+					
+					a{
+    					color: blue;
+    				}
+				}
+            
+            #new-offer-container {
+               $margin-top: 10px;
+               $margin-bottom: $margin-top + 13px;
+               background: $new-foreground-color;
+               border: 2px solid rgba(50, 50, 50, .8);
+               margin: $margin-top 0 $margin-bottom;
+               padding: $margin-top;
+            }
+			}
+		}
+	}
+	
+	.button1 {
+		padding-top: 155px;
+		background: url('/images/offers/companies/blijdorp_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button2 {
+		background: url('/images/offers/companies/crepe_bus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button3 {
+		background: url('/images/offers/companies/manna_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button4 {
+		background: url('/images/offers/companies/meetbus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button5 {
+		background: url('/images/offers/companies/remia_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button6 {
+		background: url('/images/offers/companies/vleesbus_button.png');
+		background-repeat: no-repeat;
+	}
+	
+	#hv-images {
+	  max-width: 385px;
+	  margin: 1015px 0px 20px 0px;
+	  float: left;
+	  
+	  img {
+	    max-width: 100%;
+	    //margin-top: 50px;
+	  }
+	}
+}

@@ -1,0 +1,66 @@
+@import 'bourbon';
+@import 'general';
+@import 'main-catagories';
+
+body.for_sale {
+	
+	.content {
+		height: auto;
+		float: left;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #78C588;
+		}
+		
+		.story {
+			float: left;
+			
+			h1 {
+				text-align: left;
+				line-height: 30px;
+			}
+			
+			a{
+				color: blue;
+            
+            .up {
+              color: #000;
+              &:visited {
+                color: #666; }
+              &:hover {
+                text-decoration: none; } }
+			}
+			
+			.to_top, .link_list {
+				a {
+					color: #000;
+					&:visited {
+						color: #666; }
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+
+		}
+		
+		.button1 {
+			background: url('/images/offers/for_sale/diesel_button.png');
+			background-repeat: no-repeat;
+		}
+
+		.button2 {
+			background: url('/images/offers/for_sale/paardenwagen_2_button.png');
+			background-repeat: no-repeat;
+		}
+
+		.button3 {
+			padding-top: 55px;
+			background: url('/images/offers/for_sale/pick_up_button.png');
+			background-repeat: no-repeat;
+		}
+	}
+}

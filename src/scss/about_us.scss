@@ -1,0 +1,99 @@
+@import 'bourbon';
+@import 'general';
+@import 'header-pages';
+
+body.about_us {
+	
+	.front {
+		.image {
+			margin: 0px;
+		}
+		
+		.story {
+			width: 900px - (2 * (14px + 33px));
+		}
+	}
+	
+	ol {
+		.roman {
+			list-style-type: upper-roman;
+		}
+	}
+	
+	ul {
+		.roman {
+			list-style-type: circle;
+		}
+		.number {
+			list-style-type: square;
+		}
+	}
+	
+	.inline_image {
+		padding: 10px;
+		padding-right: 0px;
+		float: right;
+		vertical-align: top;
+	}
+   
+   #diy-picture {
+      height: 100px;
+      width: 75px;
+   }
+	
+	#story_header {
+		width: 100%;
+		padding: 0px 10px 10px 0px;
+		overflow: hidden;
+		
+		img {
+			width: 100px;
+			height: 125px;
+		}
+		
+		.photo_block {
+			width: 160px;
+			padding-right: 20px;
+			float: left;
+			text-align: left;
+			overflow: hidden;
+		}
+		
+		#table_of_contents {
+		  float: right;
+		  text-align: right;
+		  
+		  ul {
+		    margin: 20px 0px 0px;
+  		  padding: 0px;
+		    list-style: none;
+  		  list-style-type: none;
+  		  
+  		  li {
+  		    padding: 1px 0px;
+  		  }
+		  }
+		}
+	}
+	
+	.content {
+	  
+	  h3 {
+	    margin-bottom: 0px;
+	    font-size: 13px;
+	  }
+	  
+	  h2 {
+	    margin-top: 2em;
+	  }
+	  
+	  .up {
+	    padding: 5px 15px;
+	    background: rgba(255, 221, 87, 0.5);
+	    border: 2px solid rgba(64, 55, 22, 0.5);
+	    text-align: center;
+	    display: inline-block;
+	    
+	  }
+	}
+}
