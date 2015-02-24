@@ -1,0 +1,211 @@
+{
+   "vleesbus": {
+      "name":"3941 RR 87 (Vleesbus)",
+      "year":1968,
+      "car_type":"HZ 72",
+      "project_number":2011,
+      "description":"Ombouwen tot bedrijfswagen.",
+      "worked_on":"Deze bus krijgt een volledige revisie, van zowel het plaatwerk als de techniek. Huidige stand van zaken: plaatwerk is helemaal gereviseerd, motor is totaal gereviseerd, paard is volledig opgebouwd. Inmiddels is deze bus bijna gereed en wordt begin jan 2012 afgeleverd.",
+      "details":"Deze bus heeft een schuifdeur aan de linkerkant en een klep aan de rechterkant.",
+      "image1":"/docs/projects/companies/2_vleesbus/vleesbus_1.png",
+      "image2":"/docs/projects/companies/2_vleesbus/vleesbus_2.png",
+      "image3":"/docs/projects/companies/2_vleesbus/vleesbus_3.png",
+      "category":"companies"
+   },
+   
+   "blijdorp": {
+      "name":"ZN-61-42 (Blijdorp)",
+      "year":1969,
+      "car_type":"HY",
+      "project_number":2041,
+      "description":"Ombouw van HY tot verkoopstand dierenpark Blijdorp.",
+      "worked_on":"Blijdorp in Rotterdam wilde een HY als mobiel verkooppunt op het terras bij de speeltuin, recht tegenover Bokito. We hebben een verhoogde en verlengde HY daarvoor klaargemaakt. We hebben de motor en versnellingsbak uitgenomen en de wagen van binnen gedeeltelijk ingericht.",
+      "details":"Deze wagen is oorspronkelijk geassembleerd in Amsterdam. Dit is de eerste wagen die we voorzien hebben van een klep aan de zijkant.",
+      "image1":"/docs/projects/companies/15_blijdorp/blijdorp_1.png",
+      "image2":"/docs/projects/companies/15_blijdorp/blijdorp_2.png",
+      "image3":"/docs/projects/companies/15_blijdorp/blijdorp_3.png",
+      "category":"companies"
+   },
+   
+   "meetbus": {
+      "name":"KG-93-FP (Meetbus)",
+      "year":1974,
+      "car_type":"HY 78",
+      "project_number":2043,
+      "description":"Grote revisie plaatwerk en nieuw golfdak.",
+      "worked_on":"We hebben het plaatwerk fors gereviseerd, zo is de wagen voorzien van een nieuw dak. Op dit moment doet de wagen dienst als meetbus voor een speciaal project voor het medisch centrum van de Erasmus universiteit in Rotterdam.",
+      "details":"Dit is de oude bus van de fotograaf Aarsman, die met deze HY in de jaren '80 heel Nederland heeft doorgereden en overal fotos gemaakt heeft voor zijn boek 'Hollandse Taferelen'.",
+      "image1":"/docs/projects/companies/16_meetbus/meetbus_1.png",
+      "image2":"/docs/projects/companies/16_meetbus/meetbus_2.png",
+      "image3":"/docs/projects/companies/16_meetbus/meetbus_3.png",
+      "category":"companies"
+   },
+   
+   "crepe_bus": {
+      "name":"69-VB-28 (Souvenirs de France, Breda)",
+      "year":1980,
+      "car_type":"HY 1600",
+      "project_number":2047,
+      "description":"Complete plaatwerk revisie.",
+      "worked_on":"We hebben deze bus van binnen kaal gemaakt. Daarna is de bus van buiten geheel gestraald en hebben we aan de zijkant een klep gemonteerd. Tenslotte is de bus gespoten in de 'Souvenirs de France' kleuren. Tevens hebben we de LPG-installatie uitgenomen.",
+      "details":"Deze bus heeft oorspronkelijk dienst gedaan bij het waterleidingbedrijf 'Midden Holland'. Tot aan 1 Januari 2011, stond een soortgelijke auto ge&euml;xposeerd in het waterleiding-museum in Utrecht.",
+      "image1":"/docs/projects/companies/19_crepe/crepe_1.png",
+      "image2":"/docs/projects/companies/19_crepe/crepe_2.png",
+      "image3":"/docs/projects/companies/19_crepe/crepe_3.png",
+      "category":"companies"
+   },
+   
+   "manna": {
+      "name":"WI MM 701 (Manna)",
+      "year":1963,
+      "car_type":"HY",
+      "project_number":2063,
+      "description":"Motor ombouw voor Manna mobiel in Wiesbaden, Duitsland.",
+      "worked_on":"Een charitatieve organisatie in Wiesbaden, Duitsland, had een dubbel verlengde HY aangeschaft. Deze HY deed dienst als mobiele keuken, waarmee ze langs scholen gaan in achterstand-wijken, om kinderen een voedzame maaltijd te geven. Na vele jaren trouwe dienst, waren de motor en de versnellingsbak op. Wij hebben een nieuwe motor en versnellingsbak geleverd.",
+      "details":"Dit is een dubbel verlengde HY.",
+      "image1":"/docs/projects/companies/26_manna/manna_1.png",
+      "image2":"/docs/projects/companies/26_manna/manna_2.png",
+      "image3":"/docs/projects/companies/26_manna/manna_3.png",
+      "category":"companies"
+   },
+   
+   "remia": {
+      "name":"BE-51-17 (remia)",
+      "year":1965,
+      "car_type":"HY 72",
+      "project_number":2069,
+      "description":"Ombouw tot promotiewagen.",
+      "worked_on":"Remia wilde voor haar promotie activiteiten een mooie HY met verkoopklep. Om te beginnen hebben wij hen geadviseerd bij de aankoop van een goede HY. Vervolgens hebben wij de systemen die essentieel zijn voor de veiligheid en bedrijfszekerheid [remmen, koeling, ontsteking] gereviseerd/ge&iuml;nspecteerd. We hebben een grote verkoopklep ingebouwd en de wagen van binnen en buiten strak laten maken en Remia/geel gespoten. Het interieur is daarna door een professionele standbouwer op maat gemaakt",
+      "details":"Het reclamebord op het dak is speciaal voor deze bus gemaakt. De teksten op de bus zijn met de hand geschilderd.",
+      "image1":"/docs/projects/companies/remia/remia_1.png",
+      "image2":"/docs/projects/companies/remia/remia_2.png",
+      "image3":"/docs/projects/companies/remia/remia_3.png",
+      "category":"companies"
+   },
+   
+   "camphy": {
+      "name":"92-TT-78 (Camphy)",
+      "year":1976,
+      "car_type":"HY(verlengd)",
+      "project_number":2010,
+      "description":"Totale revisie.",
+      "worked_on":"Deze verlengde HY-bus is totaal gereviseerd en in nieuwe kleuren overgespoten. Alle mechanische systemen, zoals de remmen, het stuur, de elektra en de koeling, zijn gedemonteerd, ge&iuml;nspecteerd en zo nodig vervangen. De carrosserie is geheel gestraald, waarna de slechte delen zijn vervangen. Hierna is alles samengebouwd tot een totaal gereviseerde HY.",
+      "details":"Dit is mijn eigen camper en het eerste project van <b id='company_name'>HY's mooi.</b>",
+      "image1":"/docs/projects/consumers/1_camphy/camphy_1.png",
+      "image2":"/docs/projects/consumers/1_camphy/camphy_2.png",
+      "image3":"/docs/projects/consumers/1_camphy/camphy_3.png",
+      "category":"consumers"
+   },
+   
+   "cabinedak": {
+      "name":"29-AB-85 (Cabine-dak)",
+      "year":1978,
+      "car_type":"HY",
+      "project_number":2012,
+      "description":"Nieuw cabine-dak.",
+      "worked_on":"Deze HY had boven de cabine een camper slaap cabine gemonteerd. Wij hebben deze verwijderd en een nieuw origineel cabine-dak geplaatst.",
+      "details":"Aan deze HY is van achteren een bagage-bak aangebouwd.",
+      "image1":"/docs/projects/consumers/3_cabinedak/cabinedak_1.png",
+      "image2":"/docs/projects/consumers/3_cabinedak/cabinedak_2.png",
+      "image3":"/docs/projects/consumers/3_cabinedak/cabinedak_3.png",
+      "category":"consumers"
+   },
+   
+   "neusplaten": {
+      "name":"08-UB-71 (Neusplaten)",
+      "year":1980,
+      "car_type":"HY",
+      "project_number":2015,
+      "description":"Het monteren van nieuwe neusplaten.",
+      "worked_on":"Deze HY had last van een typisch HY-probleem, namelijk veel roest achter de koplampen. We hebben nieuwe metalen neusplaten gemonteerd.",
+      "details":"De neusplaten zijn een van de weinige plaatwerkdelen die nog in metaal worden gemaakt, de pasvorm valt echter tegen.",
+      "image1":"/docs/projects/consumers/5_neusplaten/neusplaten_1.png",
+      "image2":"/docs/projects/consumers/5_neusplaten/neusplaten_2.png",
+      "image3":"/docs/projects/consumers/5_neusplaten/neusplaten_3.png",
+      "category":"consumers"
+   },
+   
+   "politie_bus": {
+      "name":"37-VB-09 (Politiebus)",
+      "year":1980,
+      "car_type":"H 1600",
+      "project_number":2024,
+      "description":"Statisch conserveren van een TPW voor het politiemuseum.",
+      "worked_on":"In nauw overleg met de conservator van het politiemuseum, zijn diverse onderdelen van deze wagen statisch geconserveerd. Dat betekent dat de bus nu niet kan rijden, omdat zaken als accu, motorolie, koel- en remolie zijn verwijderd.",
+      "details":"Enkele gebruiksporen, zoals een kleine deuk in het spatbord, zijn vanuit historisch oogpunt niet gerepareerd.",
+      "image1":"/docs/projects/consumers/9_politie/politiebus_1.png",
+      "image2":"/docs/projects/consumers/9_politie/politiebus_2.png",
+      "image3":"/docs/projects/consumers/9_politie/politiebus_3.png",
+      "category":"consumers"
+   },
+   
+   "type_h": {
+      "name":"346 FB 09 (Type H)",
+      "year":1954,
+      "car_type":"H",
+      "project_number":2027,
+      "description":"Totale revisie van een oude HY met spijltje uit 1954.",
+      "worked_on":"Deze wagen uit 1954 hebben we opgehaald uit Zuid-Frankrijk. met de restauratie brengen we deze wagen weer terug in de oorspronkelijke staat. Huidige stand van zaken(Januari 2010): het plaatwerk is gedaan.",
+      "details":"Deze wagen uit 1954 heeft nog een spijltje in de voorruit. De vorige eigenaar heeft de bus aan de achterzijde laten verlengen. Bij de restauratie hebben wij deze verlenging weer weggenomen.",
+      "image1":"/docs/projects/consumers/10_type_h/type_h_1.png",
+      "image2":"/docs/projects/consumers/10_type_h/type_h_2.png",
+      "image3":"/docs/projects/consumers/10_type_h/type_h_3.png",
+      "category":"consumers"
+   },
+   
+   "brandweer": {
+      "name":"DR-72-04 (Brandweer)",
+      "year":1954,
+      "car_type":"H",
+      "project_number":2054,
+      "description":"Toezicht en advies op eigenaar die de wagen zelf opknapt.",
+      "worked_on":"Een jonge HY-liefhebber had goedkoop een oude brandweer-wagen aan kunnen schaffen, maar voor de APK moest er nog wel wat gebeuren. Onder toezicht van <b id='company_name'>HY's mooi.</b> heeft hij deze werkzaamheden in onze werkplaats uitgevoerd.",
+      "details":"Een goed voorbeeld van een geslaagd 'doe-het-zelf' project.",
+      "image1":"/docs/projects/consumers/21_brandweer/brandweer_1.png",
+      "image2":"/docs/projects/consumers/21_brandweer/brandweer_2.png",
+      "image3":"/docs/projects/consumers/21_brandweer/brandweer_3.png",
+      "category":"consumers"
+   },
+   
+   "pick_up": {
+      "name":"8588 QQ 63 (Pick-up)",
+      "year":1974,
+      "car_type":"HY 72",
+      "project_number":2046,
+      "description":"Invoeren en zo origineel mogelijk houden van een HY pick-up.",
+      "worked_on":"Geen. Dit is een originele wagen van de eerste eigenaar. We zoeken een liefhebber die op zoek is naar zo'n originele pick-up.",
+      "details":"Inclusief huif. Staat nog op Frans kenteken.",
+      "image1":"/docs/projects/for_sale/18_pick_up/pick_up_1.png",
+      "image2":"/docs/projects/for_sale/18_pick_up/pick_up_2.png",
+      "image3":"/docs/projects/for_sale/18_pick_up/pick_up_3.png",
+      "category":"for_sale"
+   },
+   
+   "paardenwagen_2": {
+      "name":"4932 QT 63 (Paardenwagen 2)",
+      "year":1966,
+      "car_type":"HY 72",
+      "project_number":2055,
+      "description":"Totale revisie van een HY paardenwagen.",
+      "worked_on":"Dit is een HY-plateau die direct vanuit de fabriek, door een carrosserie-bouwer is omgebouwd tot paardenwagen. Bij demontage van het 'paarden' gedeelte, bleken de bodemplaten en kokerbalken zo slecht dat we ze los hebben geslepen van de cabine en opnieuw laten maken.",
+      "details":"Op dit moment hebben we dus een losse cabine in de werkplaats staan.",
+      "image1":"/docs/projects/for_sale/22_paardenwagen_2/paardenwagen_1.png",
+      "image2":"/docs/projects/for_sale/22_paardenwagen_2/paardenwagen_2.png",
+      "image3":"/docs/projects/for_sale/22_paardenwagen_2/paardenwagen_3.png",
+      "category":"for_sale"
+   },
+   
+   "diesel": {
+      "name":"8642 VL 02 (Diesel)",
+      "year":1981,
+      "car_type":"HY IN2",
+      "project_number":2065,
+      "description":"Revisie van een HY diesel met veel gebruiksporen.",
+      "worked_on":"Deze HY diesel heeft duidelijk een zwaar en bewogen leven achter de rug. De Indenor diesel-motor loopt echter nog soepel. Afhankelijk van de nieuwe eigenaar, wordt deze HY geheel, of gedeeltelijk gereviseerd.",
+      "details":"Bij het invoeren van deze wagen uit Belgi&euml;, kon de RDW het chassis-nummer slecht lezen. Ze hebben vervolgens het chassis-nummer opnieuw ingeslagen, alleen hebben ze daarbij het cijfer '2' van 'IN2' bij het chassis-nummer getrokken.",
+      "image1":"/docs/projects/for_sale/27_diesel/diesel_1.png",
+      "image2":"/docs/projects/for_sale/27_diesel/diesel_2.png",
+      "image3":"/docs/projects/for_sale/27_diesel/diesel_3.png",
+      "category":"for_sale"
+   }
+}

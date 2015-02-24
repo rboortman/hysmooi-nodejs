@@ -4,183 +4,183 @@ $new-foreground-color: rgb(118, 193, 58);
 
 
 body {
-   background-color: #FFF1C7;
-	text-align: justify;
+   background-color: #fff1c7;
+   text-align: justify;
    
    #stage {
-   	width: $stage-width;
-   	height: auto;
-   	margin: 0 auto;
-   	background-color: transparent;
+      width: $stage-width;
+      height: auto;
+      margin: 0 auto;
+      background-color: transparent;
    }
 
-	.front {
-		background-color: #FFDD57;
-	
-		.story {
-			border: 2px solid rgba(50, 50, 50, 0.8);
-		}
-	}
+   .front {
+      background-color: #ffdd57;
+   
+      .story {
+         border: 2px solid rgba(50, 50, 50, 0.8);
+      }
+   }
 
    .header {
-   	$header_height: 101px;
+      $header_height: 101px;
 
-   	width: 100%;
-   	height: $header_height;
-   	overflow: hidden;
-	
-   	.beam {
-   		width: 100%;
-   		height: 50px;
-   		margin: 25px 0px;
-		
-   		@include linear-gradient(bottom, rgba(170, 170, 170, 0.7), rgba(100, 100, 100, 0.7));
-		
-   		.logo {
-   			margin: 0px 50px;
-   			position: relative;
-   			top: -25px;
-   			float: left;
-   		}
-		
-   		.header-button {
-   //			padding: 30px 18px 2px;
-   			padding: 16px 18px;
-			
-   			float: left;
-   			background: rgba(220, 220, 220, 0.7);
-   			color: rgba(50, 50, 50, 0.8);
-   			border: 1px solid rgb(70, 70, 70);
-   			border-top-style: none;
-   			border-bottom-style: none;
-   			border-left-style: none;
-   			font-weight:bold;
-			
-   			@include transition(background, 0.3s);
-			
-   			&:hover {
-   				background: rgba(70, 70, 70, 0.7);
-   				color: white;
-   			}
-   		}
-		
-   		.first {
-   			border-left-style: solid;
-   		}
-		
-   		a { color: #333; text-decoration: none; }
-		
-   		.facebook {
-   			position: relative;
-   			top: -25px;
-   			float: right;
+      width: 100%;
+      height: $header_height;
+      overflow: hidden;
+   
+      .beam {
+         width: 100%;
+         height: 50px;
+         margin: 25px 0px;
+      
+         @include linear-gradient(bottom, rgba(170, 170, 170, 0.7), rgba(100, 100, 100, 0.7));
+      
+         .logo {
+            margin: 0px 50px;
+            position: relative;
+            top: -25px;
+            float: left;
+         }
+      
+         .header-button {
+   //         padding: 30px 18px 2px;
+            padding: 16px 18px;
+         
+            float: left;
+            background: rgba(220, 220, 220, 0.7);
+            color: rgba(50, 50, 50, 0.8);
+            border: 1px solid rgb(70, 70, 70);
+            border-top-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            font-weight:bold;
+         
+            @include transition(background, 0.3s);
+         
+            &:hover {
+               background: rgba(70, 70, 70, 0.7);
+               color: white;
+            }
+         }
+      
+         .first {
+            border-left-style: solid;
+         }
+      
+         a { color: #333; text-decoration: none; }
+      
+         .facebook {
+            position: relative;
+            top: -25px;
+            float: right;
 
-   			img {
-   				max-height: 25px;
-   			}
-   		}
-   	}
+            img {
+               max-height: 25px;
+            }
+         }
+      }
    }
 
    .content {
-   	width: 100%;
-   	min-height: 450px;
-   	height: auto;
+      width: 100%;
+      min-height: 450px;
+      height: auto;
       
-		.front {
-			height: auto;
-			width: 100%;
-			overflow: hidden;
-			
-			border: 2px solid rgba(51, 51, 51, 0.6);
+      .front {
+         height: auto;
+         width: 100%;
+         overflow: hidden;
+         
+         border: 2px solid rgba(51, 51, 51, 0.6);
          box-shadow: 3px 3px 100px #333;
 
-			.story {
-				width: 390px;
-				height: auto;
-				min-height: 455px;
-				margin: 20px 33px;
-				padding: 6px 14px;
-				float: right;
-				background: rgba(180, 180, 180, 0.85);
+         .story {
+            width: 390px;
+            height: auto;
+            min-height: 455px;
+            margin: 20px 33px;
+            padding: 6px 14px;
+            float: right;
+            background: rgba(180, 180, 180, 0.85);
 
-				h1 {
-					text-align: right;
-				}
-			}
+            h1 {
+               text-align: right;
+            }
+         }
 
-			.image {
-				max-width: 370px;
-				height: auto;
-				margin: 20px 0px 20px 33px;
-				float: left;
+         .image {
+            max-width: 370px;
+            height: auto;
+            margin: 20px 0px 20px 33px;
+            float: left;
 
-				img {
-					max-width: 100%;
-				}
-			}
-		}
+            img {
+               max-width: 100%;
+            }
+         }
+      }
 
- 	   .up {
- 	      padding: 5px 15px;
- 	      background: rgba(255, 221, 87, 0.5);
- 	      border: 2px solid rgba(64, 55, 22, 0.5);
- 	      text-align: center;
- 	      display: inline-block;
- 	   }
+       .up {
+          padding: 5px 15px;
+          background: rgba(255, 221, 87, 0.5);
+          border: 2px solid rgba(64, 55, 22, 0.5);
+          text-align: center;
+          display: inline-block;
+       }
    }
 
    .footer {
-   	width: 100%;
-   	height: 35px;
-   	padding-top: 10px;
-   	float: left;
-   	text-align: center;
-   	font-size: 10px;
-	
-	
-   	img {
-   		max-height: 18px;
-   		vertical-align: center;
-   	}
+      width: 100%;
+      height: 35px;
+      padding-top: 10px;
+      float: left;
+      text-align: center;
+      font-size: 10px;
+   
+   
+      img {
+         max-height: 18px;
+         vertical-align: center;
+      }
    }
 }
 
 .lower_buttons {
-	$margin: 10px;
-	width: $stage-width;
-	height: 35px;
-	padding-top: 10px;
-	float: left;
-//	background-color: #FFF1C7;
-	
-	.offer {	
-		width: ($stage-width - (2 * $margin)) / 3;
-		height: 28px;
-		padding-top: 7px;
-		color: #333;
-		text-align: center;
-		float: left;
-		
-		&:link { text-decoration: none; }
-	}
-	
-	.companies {
-		margin-right: $margin;
-		background: url("/images/overall/lower_button_companies.png");
-		background-repeat: no-repeat;
-	}
-	
-	.consumers {
-		margin-right: $margin;
-		background: url("/images/overall/lower_button_consumers.png");
-		background-repeat: no-repeat;
-	}
-	
-	.for_sale {
-		background: url("/images/overall/lower_button_for_sale.png");
-		background-repeat: no-repeat;
-	}
+   $margin: 10px;
+   width: $stage-width;
+   height: 35px;
+   padding-top: 10px;
+   float: left;
+//   background-color: #FFF1C7;
+   
+   .offer {   
+      width: ($stage-width - (2 * $margin)) / 3;
+      height: 28px;
+      padding-top: 7px;
+      color: #333;
+      text-align: center;
+      float: left;
+      
+      &:link { text-decoration: none; }
+   }
+   
+   .companies {
+      margin-right: $margin;
+      background: url('/images/overall/lower_button_companies.png');
+      background-repeat: no-repeat;
+   }
+   
+   .consumers {
+      margin-right: $margin;
+      background: url('/images/overall/lower_button_consumers.png');
+      background-repeat: no-repeat;
+   }
+   
+   .for_sale {
+      background: url('/images/overall/lower_button_for_sale.png');
+      background-repeat: no-repeat;
+   }
 }
 
 body {
@@ -208,19 +208,19 @@ a {
     text-decoration: none; } }
 
 span#company_name {
-	font-weight: bold;
-	color: #FF3232;
+   font-weight: bold;
+   color: #ff3232;
 }
 
 span#itronaut {
-	font-family: monaco, monospace;
-	font-weight: bold;
-	font-style: italic;
-	color: #009;
+   font-family: monaco, monospace;
+   font-weight: bold;
+   font-style: italic;
+   color: #009;
 }
 
 span#underline {
-	text-decoration: underline;
+   text-decoration: underline;
 }
 
 div {

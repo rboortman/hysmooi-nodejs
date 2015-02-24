@@ -1,0 +1,109 @@
+@import 'bourbon';
+@import 'general';
+@import 'stars';
+
+body.colophon {
+	
+	.content {
+		height: auto;
+		
+		.background_container {
+			height: auto;
+			position: relative;
+			overflow: hidden;
+			
+			border: 2px solid rgba(51, 51, 51, 0.6);
+			box-shadow: 3px 3px 100px #333;
+			
+			.background {
+				background: black url('/images/colophon/background.png') repeat 5% 5%;
+				position: absolute;
+				top: 0; left: 0; right: 0; bottom: 0;
+				z-index: -100;
+				overflow: hidden;
+
+				@include animation-name(move_stars);
+				@include animation-duration (200s);
+				@include animation-timing-function (linear);
+				@include animation-iteration-count (infinite);
+			}
+			
+			.midground {
+				background: url('/images/colophon/midground.png') repeat 20% 20%;
+				position: absolute;
+				top: 0; left: 0; right: 0; bottom: 0;
+				z-index: -75;
+				
+				@include animation-name(move_stars);
+				@include animation-duration (150s);
+				@include animation-timing-function (linear);
+				@include animation-iteration-count (infinite);
+			}
+			
+			.foreground {
+				background: url('/images/colophon/foreground.png') repeat 35% 35%;
+				position: absolute;
+				top: 0; left: 0; right: 0; bottom: 0;
+				z-index: -50;
+				
+				@include animation-name(move_stars);
+				@include animation-duration (100s);
+				@include animation-timing-function (linear);
+				@include animation-iteration-count (infinite);
+			}
+			
+			.story {
+				
+				height: auto;
+				min-height: 450px;
+				width: 806px;
+				margin: 20px auto;
+				padding: 6px 14px;
+				
+				background-color: white;
+				opacity: 0.85;
+				filter:alpha(opacity = 85);
+				overflow: hidden;
+				
+				.box {
+					margin-bottom: 30px;
+					overflow: hidden;
+				}
+				
+				.itronaut {
+					img {
+						max-height: 100px;
+						float: right;
+					}
+				}
+				
+				.rails {
+					img {
+						margin-left: 10px;
+						height: 25px;
+					}
+				}
+				
+				td {
+					width: 150px;
+				}
+				
+				#update {
+					font-size: 10px;
+				}
+				
+				#browser_name {
+					color: blue;
+					font-weight: bold;
+				}
+				#browser_announcement {
+					color: blue;
+				}
+			}
+			
+		}
+		
+	}
+	
+	
+}

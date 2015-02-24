@@ -1,0 +1,67 @@
+@import 'bourbon';
+@import 'general';
+//@import 'main-catagories';
+
+body.projects {
+	
+	.content {
+		width: 88%;
+		margin: 0 auto;
+		padding: 10px;
+		overflow: hidden;
+//		border: 5px #FFDD57 outset;
+		
+		.title {
+			text-align: center;
+			color: #02087A;
+		}
+		
+		.info_box {
+			margin: 20px;
+			margin-top: 0px;
+			float: right;
+			border: 5px gray solid;
+		}
+		
+		.description {
+			margin-top: 20px;
+		}
+		
+		.worked_on {
+			margin-bottom: 20px;
+		}
+		
+		.image{
+			width: 45%;
+			overflow: hidden;
+		}
+		
+		.first {
+			float: left;
+		}
+		
+		.second {
+			float: right;
+		}
+		
+		.third {
+			margin-left: 20px;
+			float: right;
+		}
+		
+		.lower_line {
+			width: 100%;
+			margin-top: 50px;
+			float: left;
+			
+			.details {
+				margin-top: 50px;
+			}
+		}
+		
+		.back {
+			float: left;
+			text-align: center;
+		}
+	}
+}

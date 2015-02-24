@@ -3,6 +3,9 @@ extend templates/_template
 block stylesheets
    link(rel='stylesheet', href='/css/index.css')
 
+block scripts
+   script(type='text/javascript' src='/js/home.min.js')
+
 block content
    .front
       .story
@@ -25,7 +28,7 @@ block content
             a(href='/menno')
                b Menno van Heijningen
 
-         a.button.left(href='/assets/plaatwerk_catalogus.pdf', target='_blank')
+         a.button.left(href='/docs/plaatwerk_catalogus.pdf', target='_blank')
             .text.yellow
                b Nieuw
                br

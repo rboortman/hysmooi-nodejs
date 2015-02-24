@@ -3,6 +3,9 @@ extend templates/_company-front
 block stylesheets
    link(rel='stylesheet', href='/css/companies.css')
 
+block scripts
+   script(type='text/javascript' src='/js/companies.min.js')
+
 block main-story
    h1 Voor bedrijven
 
@@ -83,29 +86,29 @@ block main-story
 
 block project_buttons
    .left.button
-      a(href='/projects/#(@blijdorp.id)')
+      a(href='/projects/blijdorp')
          .button1.button_text Ombouw van HY tot verkoopstand dierenpark Blijdorp.
 
    .right.button
-      a(href='/projects/#(@crepe_bus.id)')
+      a(href='/projects/crepe_bus')
          .button2.button_text Complete plaatwerk revisie.
 
    .left.button
-      a(href='/projects/#(@manna.id)')
+      a(href='/projects/manna')
          .button3.button_text Motor ombouw voor Manna mobiel.
 
    .right.button
-      a(href='/projects/#(@meetbus.id)')
+      a(href='/projects/meetbus')
          .button4.button_text Grote revisie plaatwerk en nieuw golfdak.
 
    .left.button
-      a(href='/projects/#(@remia.id)')
+      a(href='/projects/remia')
          .button5.button_text
             br
             | Ombouw tot promotiewagen.
 
    .right.button
-      a(href='/projects/#(@vleesbus.id)')
+      a(href='/projects/vleesbus')
          .button6.button_text Ombouwen tot bedrijfswagen.
 
    #hv-images

@@ -8,6 +8,7 @@ var express = require('express'),
 
 var contentPath = path.resolve(__dirname + '/build/'), port;
 var env = process.env.NODE_ENV || 'development';
+var db = JSON.parse(fs.readFileSync(__dirname + '/database.json', 'utf8'));
 
 switch (env) {
    case 'development':
@@ -37,12 +38,19 @@ app.set('views', contentPath + '/jade');
 app.set('view engine', 'jade');
 
 
+String.prototype.capitalize = function() {
+   var toReturn = [];
+   this.split('_').forEach(function (word) {
+      toReturn.push(word.charAt(0).toUpperCase() + word.slice(1));
+   });
+   return toReturn.join(' ');
+};
 
 app.get('/:page?', function (request, response) {
    var toRender, toSend = {};
    
    if (fs.existsSync(contentPath + '/jade/' + request.params.page + '.jade')) {
-      toSend.controller = request.params.page;
+      toSend.controller = request.params.page.capitalize();
       toSend.development = true;
       toRender = request.params.page;
    } else {
@@ -53,6 +61,15 @@ app.get('/:page?', function (request, response) {
    
    // response.send(request.params.page);
    response.render(toRender, toSend);
+});
+
+app.get('/projects/:id?', function (request, response) {
+   var toRender, toSend = {
+      controller: 'Projects',
+      project: db[request.params.id] || db.camphy,
+   };
+   
+   response.render('projects', toSend);
 });
 
 app.listen(port);

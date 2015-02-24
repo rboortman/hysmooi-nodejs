@@ -8,7 +8,7 @@ module.exports = function(grunt) {
          },
          scsslint: {
             files: ['<%= scsslint.files %>'],
-            tasks: ['scsslint', 'sass']
+            tasks: [/*'scsslint',*/ 'sass']
          },
          jshint: {
             files: ['<%= jshint.files %>', '.jshintrc'],
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
       },
 
       jshint: {
-         files: ['<%= sources.gruntfile %>', '<%= sources.js %>'],
+         files: ['<%= sources.gruntfile %>', '<%= sources.js %>', 'index.js'],
          options: {
             jshintrc: '.jshintrc'
          }
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
             report: 'gzip'
          },
          files: {
-            src: ['<%= sources.js %>', 'src/js/ga.js'],
+            src: ['<%= sources.js %>'],
             dest: 'build/js',
             expand: true,
             flatten: true,
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
 
       sources: {
          jade: ['src/jade/**/*.jade'],
-         js: ['src/js/*.js', '!src/js/ga.js', 'index.js'],
+         js: ['src/js/*.js', '!src/js/ga.js'],
          scss: ['src/**/*.scss', '!src/scss/bourbon/**/*'],
          build: ['build/**/*.js'],
          gruntfile: ['Gruntfile.js']

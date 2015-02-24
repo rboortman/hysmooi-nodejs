@@ -1,0 +1,11 @@
+@import 'main-catagories';
+
+body {
+   .new-front {
+      background: $new-foreground-color;
+      
+      h1 {
+         line-height: 25px;
+      }
+   }
+}
