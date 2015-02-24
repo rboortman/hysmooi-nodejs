@@ -4,7 +4,7 @@ block stylesheets
    link(rel='stylesheet', href='/css/contact.css')
 
 block image
-   iframe(width='360', height='462', frameborder='0', scrolling='no', marginwidth='0', marginheight='0', src='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Middelblok+134+D+2831+BP,+Gouderak&aq=&sll=52.034217,4.445439&sspn=0.265278,0.617294&vpsrc=6&ie=UTF8&hq=&hnear=Middelblok+134,+Gouderak,+Ouderkerk,+Zuid-Holland,+The+Netherlands&t=m&ll=52.053335,4.687042&spn=0.195074,0.253372&z=11&iwloc=A&output=embed' )
+   iframe(width="360", height="462", frameborder="0", style="border:0", src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9824.718397325252!2d4.710469273019493!3d52.00360518653849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d4050e238ed3%3A0xa4f6ced153074d9c!2sGouderaksedijk+68B%2C+2808+NG+Gouda!5e0!3m2!1sen!2snl!4v1424809927449")
 
 block main-story
    h1 Contact
@@ -20,13 +20,15 @@ block main-story
       |  Via dit nummer kunt u ook een afspraak maken om bij ons langs te komen!
    
    p
-      | Als u langs wilt komen, kan dat. Wel stellen we het op prijs als u eerst een afspraak maakt. Het adres van de werk-plaats is:
+      | Als u langs wilt komen, kan dat. Wel stellen we het op prijs als u eerst een afspraak maakt. Het adres van de werk-plaats is
+   
+   p 
+      strong Let op! Per 1 februari zijn wij verhuisd naar een nieuw adres
       li: span#company_name HY's mooi
-      li Middelblok 134 D
-      li 2831 BP, Gouderak
+      li Gouderaksedijk 68B
+      li 2808 NG, Gouda
 
-   p
-      a(href='/assets/directions_2013.pdf', target='_blank' ) Hier kunt u een uitgebreide routebeschrijving downloaden
+   //- p: a(href='/docs/directions_2013.pdf', target='_blank' ) Hier kunt u een uitgebreide routebeschrijving downloaden
 
    .financial_info
       | Kvk nummer: 24 314 585
