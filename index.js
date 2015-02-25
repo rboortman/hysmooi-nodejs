@@ -16,7 +16,7 @@ switch (env) {
       break;
       
    case 'production':
-      port = 5000;
+      port = 3000;
       break;
 }
 
