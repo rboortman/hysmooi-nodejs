@@ -1,0 +1,43 @@
+extend templates/_template
+
+block stylesheets
+   link(rel='stylesheet', href='/css/projects.css')
+
+block content
+   //- p#notice= notice
+
+   .title
+      h1 #{project.name}
+
+   .info_box
+      table
+         tr
+            td Bouwjaar:
+            td #{project.year}
+         tr
+            td Type:
+            td #{project.car_type}
+         tr
+            td Project nr:
+            td #{project.project_number}
+
+   .description
+      h3 Korte beschrijving:
+      p !{project.description}
+
+   .worked_on
+      h3 Werkzaamheden:
+      p !{project.worked_on}
+
+   .image.first: img(src='#{project.image1}', width='356')
+
+   .image.second: img(src='#{project.image2}', width='356')
+
+   .lower_line
+      .image.third: img(src='#{project.image3}', width='356')
+
+      .details
+         h3 Bijzonderheden
+         p !{project.details}
+
+   .back: a(href='/#{project.category}', action='index') Terug
