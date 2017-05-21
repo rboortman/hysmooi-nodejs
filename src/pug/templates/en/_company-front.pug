@@ -1,0 +1,22 @@
+extend _template
+
+block content
+   .front
+      .story
+         block main-story
+      
+      .project_buttons
+         block project_buttons
+      
+      .offer_images
+         block image
+   
+   .lower_buttons
+      a.companies.offer(href='/en/companies')
+         b Bedrijven
+
+      a.consumers.offer(href='/en/consumers')
+         b Particulieren
+
+      a.for_sale.offer(href='/en/for_sale')
+         b Een HY kopen of huren
