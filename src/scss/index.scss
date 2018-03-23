@@ -52,6 +52,15 @@ body.home {
 			width: 200px;
 		}
 
+		.left-promo {
+			float: left;
+
+			p {
+				margin: 0;
+				text-align: center;
+			}
+		}
+
 		.button {
          max-width: 150px;
 			display: inline-block;
