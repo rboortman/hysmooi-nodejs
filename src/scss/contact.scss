@@ -20,6 +20,7 @@ body.contact {
 		}
 		
 		.story {
+			position: relative;
 			width: 398px;
 			
 			#temp {
@@ -28,6 +29,11 @@ body.contact {
 			  a {
 			    color: blue;
 			  }
+			}
+
+			.privacy-link {
+				bottom: 0;
+				position: absolute;
 			}
 		}
 	}
